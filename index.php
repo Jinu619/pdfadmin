@@ -182,7 +182,7 @@ if (empty($_SESSION['SESS_STU_ADMINID'])) {
                         }
                         break;
                     case "filepath":
-                        if ($role == 1) {
+                        if ($role == 1 && !isset($_GET['branch'])) {
                             include("filepathlist.php");
                         } else {
                             include("filepath.php");
@@ -193,6 +193,11 @@ if (empty($_SESSION['SESS_STU_ADMINID'])) {
                             include("apicredlist.php");
                         } else {
                             include("apicred.php");
+                        }
+                        break;
+                    case "ftpcred":
+                        if ($role == 1) {
+                            include("ftpcred.php");
                         }
                         break;
                 } ?>
