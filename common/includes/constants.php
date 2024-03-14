@@ -1,6 +1,6 @@
 <?php //
-$dbhost = 'localhost';
-$dbname = 'test';
+$dbhost = 'localhost:33062';
+$dbname = 'pdfreader';
 $dbuser = 'root';
 $dbpassword = '';
 
