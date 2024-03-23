@@ -8,8 +8,9 @@ include("common/includes/allstripslashes.php");
 
 error_reporting(1);
 
-$arabic_path = $_POST['arabic_path'];
-$english_path = $_POST['english_path'];
+$arabic_path = str_replace("\\", "/", $_POST['arabic_path']);
+
+$english_path = str_replace("\\", "/", $_POST['english_path']);
 
 $branch_id = $_POST['branch_id'];
 

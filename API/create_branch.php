@@ -1,6 +1,5 @@
 <?php
 error_reporting(1);
-set_time_limit(0);
 ini_set('memory_limit', '5G');
 date_default_timezone_set("Asia/Kolkata");
 

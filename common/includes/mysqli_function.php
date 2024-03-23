@@ -1,14 +1,14 @@
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED ^ E_NOTICE);
 include("common/includes/constants.php");
-$dbhost = 'localhost:33062';
-$dbname = 'pdfreader';
+$dbhost = 'localhost';
+$dbname = 'test';
 $dbuser = 'root';
 $dbpassword = '';
 function mysql_query($result)
 {
 
-	$conn = mysqli_connect('localhost:33062', 'root', '', 'pdfreader');
+	$conn = mysqli_connect('localhost', 'root', '', 'test');
 
 	return mysqli_query($conn, $result);
 }

@@ -64,7 +64,7 @@
 
 
                 <textarea cols="30" rows="6" placeholder="What would you like to see improved the most?"></textarea>
-                <button class="submit-btn" type="submit"> SEND </button>
+                <button class="submit-btn" type="button"> SEND </button>
             </div>
         </main>
     </form>
