@@ -80,7 +80,7 @@ if (empty($_SESSION['SESS_STU_ADMINID'])) {
             <div class="main-wrapper">
                 <div class="header">
                     <div class="header-left active">
-                        <a href="index.html" class="logo">
+                        <a href="index.php" class="logo">
                             <img src="assets/img/logo.png" alt="">
                         </a>
                         <a href="index.php" class="logo-small">
@@ -101,13 +101,13 @@ if (empty($_SESSION['SESS_STU_ADMINID'])) {
                     <ul class="nav user-menu">
                         <li class="nav-item dropdown has-arrow main-drop">
                             <a href="javascript:void(0);" class="dropdown-toggle nav-link userset" data-bs-toggle="dropdown">
-                                <span class="user-img"><img src="assets/img/profiles/avator1.jpg" alt="">
+                                <span class="user-img"><img src="assets/img/profiles/avator1.png" alt="">
                                     <span class="status online"></span></span>
                             </a>
                             <div class="dropdown-menu menu-drop-user">
                                 <div class="profilename">
                                     <div class="profileset">
-                                        <span class="user-img"><img src="assets/img/profiles/avator1.jpg" alt="">
+                                        <span class="user-img"><img src="assets/img/profiles/avator1.png" alt="">
                                             <span class="status online"></span></span>
                                         <div class="profilesets">
                                             <h6><?php echo $_SESSION['SESS_STU_NAME'] ?> </h6>
@@ -151,7 +151,7 @@ if (empty($_SESSION['SESS_STU_ADMINID'])) {
                                     <a href="index.php?act=filepath"><img src="assets/img/icons/purchase1.svg" alt="img"><span> File Path</span> </a>
                                 </li>
                                 <li class="<?php echo $act == 'apicred' ?  'active' : '' ?>">
-                                    <a href="index.php?act=apicred"><img src="assets/img/icons/transfer1.svg" alt="img"><span> Api Details</span> </a>
+                                    <a href="index.php?act=apicred"><img src="assets/img/icons/transfer1.svg" alt="img"><span> Message</span> </a>
                                 </li>
                                 <?php if ($role == 1 || $role == 2) { ?>
                                     <li class="<?php echo $act == 'ftpcred' ?  'active' : '' ?>">

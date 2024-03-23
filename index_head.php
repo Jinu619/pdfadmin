@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex, nofollow">
 <title>PDF READER | SVJG</title>
 
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.jpg">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/logso.png">
 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 

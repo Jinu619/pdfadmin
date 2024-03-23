@@ -39,7 +39,7 @@ if ($branch_id) {
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <label>Arabic Content <i>(Messages written in English are translated into Arabic.)</i> </label>
+                                <label>Arabic Content </label>
                                 <textarea name="arabic_content" id="arabic_content" cols="30" rows="5"><?php echo $arabic_content; ?></textarea>
                                 <input type="hidden" name="branch_id" value="<?php echo $branch_id; ?>">
                                 <div id="arabic_contentError" style="color: red;"></div>
